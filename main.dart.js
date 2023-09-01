@@ -77389,7 +77389,7 @@ return new A.Fi(new A.abb(this,b),s,s,s,A.u9(s,s,new A.b3(r,q),s,s,s,s,s,s,s,s,s
 gQh(){return new A.cZ(B.lK,A.eJ(A.a_n("assets/Picture1.png",B.kB,!1),30,null),null)},
 M(a){var s=this,r=null,q=t.E,p=A.b([s.x3("Portfolio",0),s.x3("Services",765),s.x3("Academy",1520),s.x3("Contact",2300)],q),o=t.w,n=A.bk(a,r,o).w.a.a<760?new A.ET(A.O(B.c.aY(178.5),255,255,255),150,A.amN(p,r,r,!1),r):r,m=A.bk(a,r,o).w.a.a>760?A.al3(B.z,!0,0,r,s.gQh(),60,A.ea(r,new A.Dw(B.ff,p,r),B.v,r,r,new A.c9(B.l_,r,A.al8(B.i,1),B.hA,r,r,B.ab),r,r,r,500)):A.al3(B.l_,r,0,B.D3,s.gQh(),r,r),l=A.amd(B.Hm,B.D4,!1,new A.ab9()),k=A.bk(a,r,o).w
 o=A.bk(a,r,o).w
-k=A.eJ(A.amc(A.a_n("assets/art.jpg",r,!1),B.a1,B.kA),o.a.b,k.a.a)
+k=A.eJ(A.amc(A.a_n("assets/art2.jpg",r,!1),B.a1,B.kA),o.a.b,k.a.a)
 o=s.d
 o===$&&A.a()
 return new A.xk(!0,m,A.o5(B.cr,A.b([k,new A.cX(new A.aba(),A.amN(B.F8,o,B.b5,!0),r,t.as)],q),B.a1,B.ci),l,n,r)}}
