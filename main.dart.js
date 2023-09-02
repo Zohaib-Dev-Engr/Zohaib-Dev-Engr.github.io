@@ -32824,7 +32824,7 @@ if(r.z!==B.m9){r.z=B.m9
 r.JS()}}return r.w.a.SW(a)},
 JS(){var s,r
 for(s=this.as,r=0;r<s.length;++r)s[r].$1(this.z)},
-SV(a){if(B.b.p(B.ET,a))return this.z===B.cC
+SV(a){if(B.b.p(B.ES,a))return this.z===B.cC
 return!1},
 agn(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null
 if(!i.x){i.w.a.m()
@@ -42581,7 +42581,7 @@ r=A.qc(B.Ig,B.f,r==null?1:r)
 r.toString
 p=o.aa(0,p.gl(p))
 if(p==null)p=1
-p=A.amN(p,B.EU,new A.c5(B.yB,B.yE))
+p=A.amN(p,B.ET,new A.c5(B.yB,B.yE))
 return new A.oh(A.hn(r.a,r.b,0),q,!0,q,new A.x1(q,p,s,1,B.Lt,q),q)}}
 A.Cc.prototype={
 m(){var s=this,r=s.bV$
@@ -63522,7 +63522,7 @@ A.jV.prototype={}
 A.HZ.prototype={
 jN(a,b,c){var s,r,q,p,o,n=$.ak.ao$.f.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.EQ[r]
+for(s=t.vz,r=0;r<2;++r){q=B.EP[r]
 p=n.e
 p.toString
 o=A.ahi(p,q,s)
@@ -75168,7 +75168,7 @@ g.p2=A.C(t.D2,q)
 p=g.p1
 s=s.c
 g.p1=A.C(s,q)
-for(o=0;o<11;++o){n=B.ES[o]
+for(o=0;o<11;++o){n=B.ER[o]
 m=f.a9N(n)
 l=m==null?null:m.a
 k=p.h(0,n)
@@ -77546,7 +77546,7 @@ break}},
 M(a){var s=null,r=s
 return A.ea(B.M,new A.FM(B.zB,new A.a5I(new A.a15(this),8,!0,!0,!0,s),s,B.aD,!1,s,s,r,!0,s,8,B.a9,B.wA,s,B.a3,s),B.v,s,s,B.ky,760,s,s,s)}}
 A.a15.prototype={
-$2(a,b){var s,r,q=null,p=B.EP[b],o=p.h(0,"title")
+$2(a,b){var s,r,q=null,p=B.EV[b],o=p.h(0,"title")
 o.toString
 s=p.h(0,"content")
 s.toString
@@ -80833,8 +80833,8 @@ B.f3=new A.bm(9,"PR")
 B.DJ=new A.a0s(1,"drawer")
 B.DK=new A.vZ(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.DL=A.b(s([0,1]),t.n)
-B.ER=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
-B.Dd=new A.jA(B.ER,"image/png")
+B.EQ=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
+B.Dd=new A.jA(B.EQ,"image/png")
 B.E6=A.b(s([71,73,70,56,55,97]),t.Z)
 B.Dh=new A.jA(B.E6,"image/gif")
 B.E7=A.b(s([71,73,70,56,57,97]),t.Z)
@@ -80907,20 +80907,10 @@ B.y_=new A.ru(2,"bottomLeft")
 B.SN=new A.kn(B.xZ,B.y_)
 B.SO=new A.kn(B.y_,B.xZ)
 B.EO=A.b(s([B.SM,B.SP,B.SN,B.SO]),A.ag("z<kn>"))
-B.bU={title:0,content:1,image:2}
-B.Hd=new A.b7(B.bU,["AutoCAD","Get SLD, P & ID, Architecture, Structure, Safety Layout","assets/drawings.gif"],t.l)
-B.Hb=new A.b7(B.bU,["Image Processin","Get usefull data from Images, Analyse your data using AI","assets/opencv.gif"],t.l)
-B.Ha=new A.b7(B.bU,["Mobile App Development","Get Android and Iphone App to add value to your Bussiness","assets/Androidapp.gif"],t.l)
-B.H8=new A.b7(B.bU,["Web & Desktop App","Reach your audiance arround the world with desktop apps","assets/software.gif"],t.l)
-B.H9=new A.b7(B.bU,["Graphic Designing","Brand your idea, product and service having a big picture in mind","assets/graphic.gif"],t.l)
-B.H7=new A.b7(B.bU,["Embedded System Design","Get Industrial Standard PCB designs, Microcontroller coding & Simuation","assets/electronics.gif"],t.l)
-B.Hc=new A.b7(B.bU,["3D Modelling","Get complex geometrical shapes in 3D for prototyping or illustration","assets/3dprinting.gif"],t.l)
-B.He=new A.b7(B.bU,["Video Editing","We will edit your Video and Audio with an eye on every critical detail","assets/videoediting.gif"],t.l)
-B.EP=A.b(s([B.Hd,B.Hb,B.Ha,B.H8,B.H9,B.H7,B.Hc,B.He]),A.ag("z<aK<x,x>>"))
 B.z1=new A.oP()
 B.e3=new A.J4(1,"page")
 B.fL=new A.du(B.L,B.e3)
-B.EQ=A.b(s([B.z1,B.fL]),A.ag("z<aO>"))
+B.EP=A.b(s([B.z1,B.fL]),A.ag("z<aO>"))
 B.mq=A.b(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
 B.mr=A.b(s([0,0,32776,33792,1,10240,0,0]),t.t)
 B.a7=new A.dL(0,"icon")
@@ -80934,12 +80924,22 @@ B.ar=new A.dL(7,"suffixIcon")
 B.ah=new A.dL(8,"helperError")
 B.a8=new A.dL(9,"counter")
 B.bG=new A.dL(10,"container")
-B.ES=A.b(s([B.a7,B.ao,B.O,B.ax,B.ap,B.aq,B.V,B.ar,B.ah,B.a8,B.bG]),A.ag("z<dL>"))
-B.ET=A.b(s(["click","scroll"]),t.s)
+B.ER=A.b(s([B.a7,B.ao,B.O,B.ax,B.ap,B.aq,B.V,B.ar,B.ah,B.a8,B.bG]),A.ag("z<dL>"))
+B.ES=A.b(s(["click","scroll"]),t.s)
 B.l4=new A.o(419430400)
 B.f=new A.i(0,0)
 B.yV=new A.dk(0.2,B.ct,B.l4,B.f,11)
-B.EU=A.b(s([B.yV]),t.sq)
+B.ET=A.b(s([B.yV]),t.sq)
+B.bU={title:0,content:1,image:2}
+B.Hd=new A.b7(B.bU,["AutoCAD","Get SLD, P & ID, Architecture, Structure, Safety Layout","assets/drawings.gif"],t.l)
+B.Hb=new A.b7(B.bU,["Image Processing","Get usefull data from Images, Analyse your data using AI","assets/opencv.gif"],t.l)
+B.Ha=new A.b7(B.bU,["Mobile App Development","Get Android and Iphone App to add value to your Bussiness","assets/Androidapp.gif"],t.l)
+B.H8=new A.b7(B.bU,["Web & Desktop App","Reach your audiance arround the world with desktop apps","assets/software.gif"],t.l)
+B.H9=new A.b7(B.bU,["Graphic Designing","Brand your idea, product and service having a big picture in mind","assets/graphic.gif"],t.l)
+B.H7=new A.b7(B.bU,["Embedded System Design","Get Industrial Standard PCB designs, Microcontroller coding & Simuation","assets/electronics.gif"],t.l)
+B.Hc=new A.b7(B.bU,["3D Modelling","Get complex geometrical shapes in 3D for prototyping or illustration","assets/3dprinting.gif"],t.l)
+B.He=new A.b7(B.bU,["Video Editing","We will edit your Video and Audio with an eye on every critical detail","assets/videoediting.gif"],t.l)
+B.EV=A.b(s([B.Hd,B.Hb,B.Ha,B.H8,B.H9,B.H7,B.Hc,B.He]),A.ag("z<aK<x,x>>"))
 B.EW=A.b(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
 B.F0=A.b(s([]),t.QP)
 B.mu=A.b(s([]),A.ag("z<aEH>"))
@@ -81888,7 +81888,7 @@ B.Fv=A.b(s([B.fb,null,B.fb,null]),t.L)
 B.EH=A.b(s([B.bf,null,null,B.iR]),t.L)
 B.EI=A.b(s([B.b7,null,null,B.iT]),t.L)
 B.EJ=A.b(s([B.b8,null,null,B.iV]),t.L)
-B.EV=A.b(s([B.bg,null,null,B.iX]),t.L)
+B.EU=A.b(s([B.bg,null,null,B.iX]),t.L)
 B.F8=A.b(s([B.iL,null,null,B.iU]),t.L)
 B.Fd=A.b(s([B.dL,B.dL,B.fe,null]),t.L)
 B.Ew=A.b(s([B.aH,null,null,B.iO]),t.L)
@@ -81900,7 +81900,7 @@ B.Fe=A.b(s([B.dN,B.dN,B.fg,null]),t.L)
 B.EM=A.b(s([B.dJ,null,null,B.iS]),t.L)
 B.Fa=A.b(s([B.dK,null,null,B.iY]),t.L)
 B.Ff=A.b(s([B.aV,B.aV,B.b9,null]),t.L)
-B.HA=new A.cm(["*",B.Fi,"+",B.Fj,"-",B.Fk,".",B.Fl,"/",B.Fm,"0",B.Ex,"1",B.Ey,"2",B.Ez,"3",B.EA,"4",B.EB,"5",B.EC,"6",B.ED,"7",B.EE,"8",B.Ft,"9",B.Fu,"Alt",B.Fc,"AltGraph",B.Fv,"ArrowDown",B.EH,"ArrowLeft",B.EI,"ArrowRight",B.EJ,"ArrowUp",B.EV,"Clear",B.F8,"Control",B.Fd,"Delete",B.Ew,"End",B.EK,"Enter",B.Fn,"Home",B.EL,"Insert",B.F9,"Meta",B.Fe,"PageDown",B.EM,"PageUp",B.Fa,"Shift",B.Ff],A.ag("cm<x,E<f?>>"))
+B.HA=new A.cm(["*",B.Fi,"+",B.Fj,"-",B.Fk,".",B.Fl,"/",B.Fm,"0",B.Ex,"1",B.Ey,"2",B.Ez,"3",B.EA,"4",B.EB,"5",B.EC,"6",B.ED,"7",B.EE,"8",B.Ft,"9",B.Fu,"Alt",B.Fc,"AltGraph",B.Fv,"ArrowDown",B.EH,"ArrowLeft",B.EI,"ArrowRight",B.EJ,"ArrowUp",B.EU,"Clear",B.F8,"Control",B.Fd,"Delete",B.Ew,"End",B.EK,"Enter",B.Fn,"Home",B.EL,"Insert",B.F9,"Meta",B.Fe,"PageDown",B.EM,"PageUp",B.Fa,"Shift",B.Ff],A.ag("cm<x,E<f?>>"))
 B.HB=new A.wa(null,null,null,null,null,null,null,null)
 B.Bp=new A.o(4294966759)
 B.Bo=new A.o(4294965700)
